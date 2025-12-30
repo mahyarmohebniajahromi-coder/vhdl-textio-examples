@@ -15,10 +15,9 @@ Four essential patterns are covered:
 > Note: This repo is about **correct usage patterns**. It does not modify the `std.textio` package itself.
 
 ## Repository structure
-- **read_once.vhd** - Single file, one pass
-- **Sread_repeat.vhd** - Single file, multiple passes (close/reopen pattern)
-- **multi_once.vhd** - Multiple files, one pass each (sequential)
-- **multi_repeat.vhd** - Multiple files, repeated reads (sequential + loops)
+- **Multiple FIle _Single or mulitple Read.vhd** 
+- **Multiple FIle _Single or mulitple Write.vhd** 
+- **Single File_single or multiple Read.vhd**
 
 ## Usage (ModelSim / Vivado / ISE)
 1. **Extract/clone** this repository to a path you like.
